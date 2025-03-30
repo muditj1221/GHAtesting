@@ -19,7 +19,7 @@ jobs:
         uses: machulav/ec2-github-runner@v2
         with:
           mode: start
-          github-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
+          #github-token: ${{ secrets.GH_PERSONAL_ACCESS_TOKEN }}
           ec2-image-id: ami-04cb9bc7a13f17107
           ec2-instance-type: t3.nano
           subnet-id: subnet-0c82fc3bf42a278d1
