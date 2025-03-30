@@ -23,7 +23,7 @@ jobs:
           ec2-image-id: ami-04cb9bc7a13f17107
           ec2-instance-type: t3.nano
           subnet-id: subnet-0c82fc3bf42a278d1
-          security-group-id: sg-069c96a6d164a9f42
+          #security-group-id: sg-069c96a6d164a9f42
           iam-role-name: eks-5ec9a4e9-578f-0d6b-c6c7-0141df5c8e2b # optional, requires additional permissions
           aws-resource-tags: > # optional, requires additional permissions
             [
