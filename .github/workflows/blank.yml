@@ -24,7 +24,7 @@ jobs:
           ec2-instance-type: t3.nano
           subnet-id: subnet-0c82fc3bf42a278d1
           security-group-id: sg-069c96a6d164a9f423
-          iam-role-name: eksctl-final-nodegroup-ng-6fc8064-NodeInstanceRole-1EPZZ5BS4BI12 # optional, requires additional permissions
+          # iam-role-name: eksctl-final-nodegroup-ng-6fc8064-NodeInstanceRole-1EPZZ5BS4BI12 # optional, requires additional permissions
           aws-resource-tags: > # optional, requires additional permissions
             [
               {"Key": "Name", "Value": "ec2-github-runner"},
